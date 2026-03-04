@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #1a1a1a;
+      }
+      .responsive-div {
+        width: 100%;
+        max-width: 1000px;
+        padding: 20px;
+        color: white;
+        font-size: 25px;
+        background-color: #646060;
+      }
+      @media (max-width: 600px) /* @media (min-width: 600px) */ {
+        body {
+          align-items: flex-start;
+        }
+        .responsive-div {
+          background-color: #4caf50;
+        }
+      }
+      @media (min-width: 601px) and (max-width: 900px) {
+        body{
+            align-items: end;
+        }
+        .responsive-div {
+          background-color: #2196f3;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="responsive-div">
+      <div class="container">
+        <h2>CSS Breakpoints</h2>
+      </div>
+    </div>
+  </body>
+</html>

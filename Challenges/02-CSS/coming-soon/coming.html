@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon!</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #8a2be2, #4169e1);
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+      .container {
+        border: none;
+        border-radius: 13px;
+        background-color: rgba(255, 255, 255, 0.9);
+        max-width: 400px;
+        padding: 20px;
+      }
+      img {
+        height: 120px;
+        width: 120px;
+        display: flex;
+        justify-self: center;
+        margin: 6px;
+      }
+      h2 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 1px;
+      }
+      p {
+        text-align: center;
+        margin-bottom: 13px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input{
+        margin-bottom: 13px;
+        padding: 8px;
+        border: 3px solid #9dcde6;
+        border-radius: 6px;
+      }
+      button{
+        border: none;
+        background-color: cornflowerblue;
+        padding: 8px;
+        border-radius: 8px;
+      }
+      button:hover{
+        cursor: pointer;
+        background-color: dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="../coming-soon/logo.png" alt="Company Logo" />
+      <h2>Coming Soon!</h2>
+      <p>
+        We are working hard to bring you something amazing! Stay tuned for
+        updates.
+      </p>
+      <form action="#">
+        <input
+          type="email"
+          name=""
+          id=""
+          required
+          placeholder="Enter your Email address"
+        />
+        <button type="submit">Notify Me</button>
+      </form>
+    </div>
+  </body>
+</html>
