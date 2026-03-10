@@ -32,3 +32,10 @@ let person = {
   age: 25,
 };
 console.log("Object:", person);
+
+// example of object other
+let teaType = ["Green tea", "Black tea", "Oolong tea"];
+console.log("Array:", teaType);
+
+let user = { firstname: "John", lastname: "Doe" };
+console.log("Object:", user);
